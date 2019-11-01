@@ -1,0 +1,5 @@
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Program/Variables/bin/Debug/Variables.exe
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Program/Variables/bin/Debug/Variables.pdb
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Program/Variables/obj/Debug/Variables.csprojAssemblyReference.cache
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Program/Variables/obj/Debug/Variables.exe
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Program/Variables/obj/Debug/Variables.pdb
