@@ -34,9 +34,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Math\Calculator.cs" />
+    <Compile Include="Arrays\Arrays.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Math\" />
+    <Folder Include="Arrays\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
