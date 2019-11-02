@@ -35,10 +35,12 @@
     <Compile Include="Person.cs" />
     <Compile Include="Math\Calculator.cs" />
     <Compile Include="Arrays\Arrays.cs" />
+    <Compile Include="Strings\Strings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Math\" />
     <Folder Include="Arrays\" />
+    <Folder Include="Strings\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
