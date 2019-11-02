@@ -1,0 +1,5 @@
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Non-PrimitiveTypes/CSharpFundamentals/bin/Debug/CSharpFundamentals.exe
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Non-PrimitiveTypes/CSharpFundamentals/bin/Debug/CSharpFundamentals.pdb
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Non-PrimitiveTypes/CSharpFundamentals/obj/Debug/CSharpFundamentals.csprojAssemblyReference.cache
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Non-PrimitiveTypes/CSharpFundamentals/obj/Debug/CSharpFundamentals.exe
+/Users/jethroglaudin/Documents/CSharp_Beginner/CSharpFundamentals/Non-PrimitiveTypes/CSharpFundamentals/obj/Debug/CSharpFundamentals.pdb
