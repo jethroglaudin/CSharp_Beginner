@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Conditionals
+namespace Conditionals_Loops
 {
     class MainClass
     {
@@ -48,6 +48,14 @@ namespace Conditionals
                     Console.WriteLine("I don't understand that season!");
                     break;
             }
+
+           
+            var temp = new Iterations();
+            temp.Loop(10);
+            
+            
+            
         }
+
     }
 }

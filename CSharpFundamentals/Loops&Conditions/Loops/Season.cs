@@ -1,4 +1,4 @@
-﻿namespace Conditionals
+﻿namespace Conditionals_Loops
 {
     public enum Season
     {
