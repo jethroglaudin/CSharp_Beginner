@@ -48,13 +48,13 @@ namespace Conditionals_Loops
                     Console.WriteLine("I don't understand that season!");
                     break;
             }
+            
+            var forLoop = new Iterations();
+            forLoop.Loop(10);
 
-           
-            var temp = new Iterations();
-            temp.Loop(10);
-            
-            
-            
+            var whileLoop = new While();
+            whileLoop.Loop();
+
         }
 
     }
