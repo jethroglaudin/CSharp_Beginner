@@ -35,6 +35,7 @@
     <Compile Include="Season.cs" />
     <Compile Include="Iterations.cs" />
     <Compile Include="While.cs" />
+    <Compile Include="Random.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
