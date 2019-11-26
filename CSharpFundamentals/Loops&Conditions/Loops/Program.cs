@@ -21,7 +21,7 @@ namespace Conditionals_Loops
             //    Console.WriteLine("It's evening");
             //}
 
-            bool isGoldCustomer = true;
+            //bool isGoldCustomer = true;
 
             //float price;
             //if (isGoldCustomer)
@@ -30,37 +30,43 @@ namespace Conditionals_Loops
             //    price = 29.95f;
 
             // Conditional Operator
-            float price = (isGoldCustomer) ? 19.95f : 29.95f;
+            //float price = (isGoldCustomer) ? 19.95f : 29.95f;
 
-            Console.WriteLine(price);
+            //Console.WriteLine(price);
 
-            var season = Season.Autumn;
+            //var season = Season.Autumn;
 
-            switch (season)
-            {
-                case Season.Autumn:
-                    Console.WriteLine("It's autumn and a beautiful season.");
-                        break;
-                case Season.Summer:
-                    Console.WriteLine("It's perfect to go to the beach");
-                        break;
-                default:
-                    Console.WriteLine("I don't understand that season!");
-                    break;
-            }
-            
-            var forLoop = new Iterations();
-            forLoop.Loop(10);
+            //switch (season)
+            //{
+            //    case Season.Autumn:
+            //        Console.WriteLine("It's autumn and a beautiful season.");
+            //            break;
+            //    case Season.Summer:
+            //        Console.WriteLine("It's perfect to go to the beach");
+            //            break;
+            //    default:
+            //        Console.WriteLine("I don't understand that season!");
+            //        break;
+            //}
 
-            var whileLoop = new While();
-            whileLoop.Loop();
+            //var forLoop = new Iterations();
+            //forLoop.Loop(10);
 
-            // Practice Random
+            //var whileLoop = new While();
+            //whileLoop.Loop();
+
+            //Practice Random
             var random = new Random();
-            for (var i = 0; i < 10; i++)
-                Console.WriteLine(random.Next());
+            const int passwordLength = 10;
+              
+            // declare character array
+            char[] buffer = new char[passwordLength];
+            for (var i = 0; i < passwordLength; i++)
+                buffer[i] = (char)('a' + random.Next(0, 26));
 
-           
+            var password = new string(buffer);
+
+            Console.WriteLine(password);
 
         }
 
