@@ -55,6 +55,13 @@ namespace Conditionals_Loops
             var whileLoop = new While();
             whileLoop.Loop();
 
+            // Practice Random
+            var random = new Random();
+            for (var i = 0; i < 10; i++)
+                Console.WriteLine(random.Next());
+
+           
+
         }
 
     }
