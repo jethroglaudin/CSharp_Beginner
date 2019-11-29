@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Arrays_Lists
 {
@@ -44,6 +45,14 @@ namespace Arrays_Lists
             Console.WriteLine("Effect of Reverse");
             foreach (var n in numbers)
                 Console.WriteLine(n);
+
+            // List
+            var numbers_list = new List<int>() { 1, 2, 3, 4 };
+            numbers_list.Add(1);
+            numbers_list.AddRange(new int[3] { 5, 6, 7 });
+
+            foreach(var number in numbers_list)
+                Console.WriteLine(number);
         }
     }
 }
