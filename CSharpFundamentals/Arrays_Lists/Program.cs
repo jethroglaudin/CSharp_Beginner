@@ -7,7 +7,7 @@ namespace Arrays_Lists
         static void Main(string[] args)
         {
             var numbers = new[] { 3, 5, 9, 2, 14, 6 };
-            Console.WriteLine("Array: " + numbers);
+            
 
             // Length
             Console.WriteLine("Length: " + numbers.Length);
@@ -30,6 +30,19 @@ namespace Arrays_Lists
 
             Console.WriteLine("Effect of Copy");
             foreach(var n in another)
+                Console.WriteLine(n);
+
+            // Sort()
+            Array.Sort(numbers);
+
+            Console.WriteLine("Effect of Sort");
+            foreach (var n in numbers)
+                Console.WriteLine(n);
+
+            // Reverse()
+            Array.Reverse(numbers);
+            Console.WriteLine("Effect of Reverse");
+            foreach (var n in numbers)
                 Console.WriteLine(n);
         }
     }
