@@ -53,6 +53,22 @@ namespace Arrays_Lists
 
             foreach(var number in numbers_list)
                 Console.WriteLine(number);
+            Console.WriteLine();
+            Console.WriteLine("Index of 1: " + numbers_list.IndexOf(1));
+            Console.WriteLine("Last Index of 1: " + numbers_list.LastIndexOf(1));
+
+            Console.WriteLine("Count: " + numbers_list.Count);
+
+            for (var i = 0; i < numbers_list.Count; i++)
+            {
+                if (numbers_list[i] == 1)
+                    numbers_list.Remove(numbers_list[i]);         
+            }        
+            foreach (var number in numbers_list)
+                Console.WriteLine(number);
+
+            numbers_list.Clear();
+            Console.WriteLine("Count: " + numbers_list.Count);
         }
     }
 }
